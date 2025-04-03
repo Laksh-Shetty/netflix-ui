@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.imgs {
+    background-image: url(image.jpg);
+    height: 90vh;
+    width: 100%;
+    background-position: center;
+    top: 0;
+    position: absolute;
+    z-index: 0;
+}
+
+.color {
+    height: 90vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 0%;
+    z-index: 1;
+}
+
+.header {
+    height: 8vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+    top: 0;
+    margin: auto;
+    margin: 0 15vw;
+}
+
+img {
+    height: 15vh;
+    /*transform: translate(10px,-1vh)*/
+
+
+}
+
+button {
+    color: rgb(24, 24, 24);
+    background: white;
+    margin-right: 10px;
+    position: relative;
+    z-index: 10;
+    font-size: 1.4em;
+    padding: 2px;
+}
+
+button1 {
+    background-color: red;
+    color: rgb(238, 239, 240);
+    position: relative;
+    z-index: 10;
+    font-size: 1.4em;
+    padding: 2px;
+}
+
+main {
+    height: 80vh;
+    width: 30vw;
+    position: relative;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-items: center;
+    margin: auto;
+    position: relative;
+    top: 0;
+    text-align: center;
+    overflow-wrap: anywhere;
+    gap: 20px;
+
+
+}
+
+.hero {
+    font-size: 2.1em;
+    color: white;
+    z-index: 10;
+}
+
+.zero {
+    color: white;
+    font-size: 0.8em;
+    z-index: 10;
+}
+
+input {
+    background-color: gray;
+    color: white;
+    border: none;
+    width: 15vw;
+    opacity: 0.5;
+    height: 5vh;
+    padding: 0px;
+}
+
+input::placeholder {
+    color: white;
+}
+
+.hi {
+    background-color: red;
+    border: 0cap;
+    border-radius: 2px;
+    font-size: 1em;
+    width: 10vw;
+    height: 5vh;
+    padding: 10px;
+    margin-left: 5px;
+    overflow-y: hidden;
+    text-align: center;
+}
+
+.ok {
+    display: flex;
+}
+
+@media screen and (max-width:1000px) {
+    main {
+        width: 90vw;
+        gap: 3px;
+    }
+
+    .hi {
+        font-size: xx-small;
+    }
+}
+
+footer {
+    height: 1vh;
+    width: 100%;
+    background-color: rgb(33, 33, 33);
+}
+
+.main2 {
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    height: 60vh;
+    width: 100%;
+    font-size: medium;
+    display: flex;
+    margin: auto;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    top: 0;
+    position: relative;
+}
+
+div.main2 :first-child {
+    font-size: 2.1em;
+    font-weight: 400;
+    width: 40vw;
+    position: relative;
+
+}
+
+.vid {
+    height: 33vh;
+    width: 55vh;
+    border: 3px solid white;
+    position: relative;
+    overflow: hidden;
+    top: 0;
+    z-index: 1;
+    /* Set a lower z-index */
+}
+
+video {
+    position: relative;
+    z-index: -1;
+    /* Set z-index to -1 so the video stays behind the container */
+    width: 100%;
+    /* Use 100% to fill the container */
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    transform: translate(-20px, 2px);
+    object-position: center;
+    overflow: hidden;
+}
+
+
+.herovid {
+    font-size: small;
+}
+
+.main3 {
+    background-color: black;
+    color: white;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    font-size: 3em;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 20px;
+}
+
+.heroimg {
+    font-size: medium;
+}
+
+.main3:nth-child(2) {
+    width: 40vw;
+}
+
+.cat {
+    height: 35vh;
+    width: auto;
+}
+
+.main4 {
+    background-color: black;
+    color: white;
+    height: 60vh;
+    font-size: 1.2em;
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.main4> :first-child {
+    font-size: 2em;
+    margin-top: 0px;
+}
+
+.box {
+    height: 6vh;
+    width: 50vw;
+    margin: auto;
+    background-color: rgb(60, 59, 59);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+    font-size: 1.2em;
+}
+
+.box2 {
+    margin-bottom: 30px;
+}
+
+.plus {
+    color: black;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.end {
+    background-color: black;
+    height: 40vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    justify-content: center;
+    justify-self: center;
+    gap: 5vw;
+
+}
+
+.underline {
+    text-decoration: underline;
+    margin: auto;
+}
+
+#tp {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
